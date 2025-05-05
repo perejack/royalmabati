@@ -37,7 +37,7 @@ export function App() {
         <AnimatedRoutes />
         <Footer />
         <OffersButton />
-        <WhatsAppButton phoneNumber="+254786338487" />
+        <WhatsAppButton phoneNumber="+254736840769" />
       </div>
     </Router>
   );

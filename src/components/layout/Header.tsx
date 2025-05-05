@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 // Contact function to open WhatsApp
 const openWhatsApp = () => {
-  const phoneNumber = '254784555661';
+  const phoneNumber = '254736840769';
   const message = encodeURIComponent('Hello, I\'m interested in your roofing products. Can you provide more information?');
   window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
 };
@@ -47,9 +47,9 @@ export const Header = () => {
       <div className="hidden lg:block bg-blue-700 text-white py-1.5">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-6">
-            <a href="tel:+254784555661" className="flex items-center text-sm hover:text-blue-200 transition-colors">
+            <a href="tel:+254736840769" className="flex items-center text-sm hover:text-blue-200 transition-colors">
               <Phone className="w-4 h-4 mr-2" />
-              +254 784 555 661
+              +254 736 840 769
             </a>
           </div>
           <div className="flex items-center space-x-4">
@@ -153,7 +153,7 @@ export const Header = () => {
               >
                 Call Us
               </motion.span>
-              <span className="text-xs font-medium">+254 784 555 661</span>
+              <span className="text-xs font-medium">+254 736 840 769</span>
             </div>
           </a>
           
@@ -204,7 +204,7 @@ export const Header = () => {
                 Contact Us
               </button>
               <a 
-                href="tel:+254784555661" 
+                href="tel:+254736840769" 
                 className="block w-full px-4 py-2 border border-gray-300 rounded-md text-center"
               >
                 Call Now
